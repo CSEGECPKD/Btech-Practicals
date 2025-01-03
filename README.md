@@ -1,6 +1,6 @@
 # PracticalAssignments
 
-A repo to store practical assignments from my university.
+A repo to store practical assignments.
 
 ## License
 
