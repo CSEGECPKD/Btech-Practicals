@@ -1,6 +1,27 @@
 # PracticalAssignments
 
-A repo to store practical assignments.
+A repository to store practical assignments related to B.Tech CSE.
+
+### Folder Strcture
+```txt
+Lab-Record-Btech-cse
+├── 2019-Scheme
+│   ├── CompilerDesign
+│   ├── DataStructures
+│   ├── Microprocessor & System Software
+│   ├── NetworkingLab
+│   ├── ObjectOrientedProgramming
+│   ├── OperatingSystems
+│   └── SeminarPPT
+├── 2024-Scheme
+│   ├── S1
+│   │   └── Algorithmic-Thinking-with-Python
+│   └── S2
+│       └── Programming In C
+├── LICENSE
+└── README.md
+
+```
 
 ## License
 
