@@ -15,9 +15,9 @@ Lab-Record-Btech-cse
 │   └── SeminarPPT
 ├── 2024-Scheme
 │   ├── S1
-│   │   └── Algorithmic-Thinking-with-Python
+│   │   └── AlgorithmicThinkingWithPython
 │   └── S2
-│       └── Programming In C
+│       └── ProgrammingInC
 ├── LICENSE
 └── README.md
 
