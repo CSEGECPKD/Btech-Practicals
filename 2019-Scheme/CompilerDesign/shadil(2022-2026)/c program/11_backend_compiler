@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+int main() {
+    char res[10], op1[10], op2[10];
+    char op; // single character operator
+
+    printf("Enter 3-address code (e.g., z = x + y)\n");
+    printf("Use space-separated form: res op1 op op2\n");
+    printf("Example: z x + y\n\n");
+
+    printf("Enter code: ");
+    scanf("%s %s %c %s", res, op1, &op, op2);
+
+    printf("\nGenerated Assembly Code:\n");
+    printf("------------------------\n");
+
+    printf("MOV AX, %s\n", op1);
+
+    switch (op) {
+        case '+':
+            printf("ADD AX, %s\n", op2);
+            break;
+        case '-':
+            printf("SUB AX, %s\n", op2);
+            break;
+        case '*':
+            printf("MUL %s\n", op2);
+            break;
+        case '/':
+            printf("MOV BX, %s\n", op2);
+            printf("DIV BX\n");
+            break;
+        default:
+            printf("; Unsupported operator: %c\n", op);
+    }
+
+    printf("MOV %s, AX\n", res);
+    printf("------------------------\n");
+
+    return 0;
+}
+
